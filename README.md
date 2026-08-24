@@ -22,7 +22,7 @@
 
 I take projects from an empty repo to a deployed, working product — data model, API, interface, and release. Not just one slice of the stack.
 
-Currently a **technical lead at Cyber Nest**, where I own architecture and delivery across the full lifecycle and run code reviews for internal and external teams. Alongside that I run my own freelance engagements: payment integrations, Shopify apps, real estate platforms, and third-party API work.
+Currently a **software engineer at Cyber Nest**, where I own architecture and delivery across the full lifecycle and run code reviews for internal and external teams. Alongside that I run my own freelance engagements: payment integrations, Shopify apps, real estate platforms, and third-party API work.
 
 | | |
 | --- | --- |
