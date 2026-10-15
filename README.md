@@ -20,17 +20,17 @@
 
 ## 👨‍💻 About
 
-I take projects from an empty repo to a deployed, working product — data model, API, interface, and release. Not just one slice of the stack.
+I take projects from an empty repo to a deployed, working product: data model, API, interface, and release. Not just one slice of the stack.
 
 Currently a **software engineer at Cyber Nest**, where I own architecture and delivery across the full lifecycle and run code reviews for internal and external teams. Alongside that I run my own freelance engagements: payment integrations, Shopify apps, real estate platforms, and third-party API work.
 
 | | |
 | --- | --- |
-| 🎯 **Focus** | Full-stack web & mobile — end-to-end ownership |
+| 🎯 **Focus** | Full-stack web & mobile, end-to-end ownership |
 | 🧱 **Core stack** | TypeScript · React / Next.js · NestJS · Node · Laravel |
-| 🗄️ **Data** | PostgreSQL · MySQL · MongoDB — schemas designed, not inherited |
-| 🚀 **Ships to** | Vercel, AWS EC2, Docker — including the unglamorous parts: cron workers, mail relays, DNS |
-| 🎓 **Education** | BS Computer Science — Riphah International University |
+| 🗄️ **Data** | PostgreSQL · MySQL · MongoDB, with schemas designed rather than inherited |
+| 🚀 **Ships to** | Vercel, AWS EC2, Docker, plus the unglamorous parts: cron workers, mail relays, DNS |
+| 🎓 **Education** | BS Computer Science, Riphah International University |
 
 ---
 
@@ -39,13 +39,12 @@ Currently a **software engineer at Cyber Nest**, where I own architecture and de
 ### 🍕 [Pizza Expert](https://github.com/shayan2601/pizza-expert)
 
 <p>
-  <a href="https://pizza-expert.vercel.app"><img src="https://img.shields.io/badge/Live_Demo-000000?style=flat-square&logo=vercel&logoColor=white" alt="Live"></a>
   <a href="https://github.com/shayan2601/pizza-expert"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source"></a>
 </p>
 
 A full-stack ordering platform: storefront, cart, guest checkout, order tracking, and an admin dashboard for menu management and fulfilment.
 
-Built as a monorepo — **Next.js 16 / React 19** client over a **NestJS 11** API and **MongoDB**. Authorization is enforced server-side with JWT plus a roles guard, so admin routes stay protected regardless of what the client renders. Order line items snapshot product name and price at purchase time, so historical orders don't shift when the menu is repriced.
+Built as a monorepo: a **Next.js 16 / React 19** client over a **NestJS 11** API and **MongoDB**. Authorization is enforced server-side with JWT plus a roles guard, so admin routes stay protected regardless of what the client renders. Order line items snapshot product name and price at purchase time, so historical orders don't shift when the menu is repriced.
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -64,7 +63,7 @@ Built as a monorepo — **Next.js 16 / React 19** client over a **NestJS 11** AP
   <a href="https://github.com/shayan2601/culturup"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="Source"></a>
 </p>
 
-A marketplace connecting artists with buyers — artwork discovery and sales, an equipment marketplace, a freelance jobs board, in-app messaging, and Stripe checkout.
+A marketplace connecting artists with buyers: artwork discovery and sales, an equipment marketplace, a freelance jobs board, in-app messaging, and Stripe checkout.
 
 **React 19 + Vite** SPA consuming a **Django REST** API. Includes an auction bidding flow, two-factor authentication with backup-code recovery, and an admin dashboard with Recharts analytics behind a protected route.
 
@@ -84,7 +83,7 @@ Client and team work that doesn't live in a public repo:
 | Project | Stack | What it does |
 | --- | --- | --- |
 | **Real estate platform** | Next.js · Django · PHP · MySQL | Property search and filtering, admin panel, and an automated lease-renewal outreach system with a queued SMS pipeline over Plivo |
-| **Shopify builder app** | MERN · Shopify extensions | Drag-and-drop block builder — reusable components dropped straight into the Shopify template builder |
+| **Shopify builder app** | MERN · Shopify extensions | Drag-and-drop block builder with reusable components that drop straight into the Shopify template builder |
 | **Subscription platform** | MERN · Stripe | Stripe subscriptions across both card and ACH bank-account payments, with the surrounding auth and data layer |
 | **Slack integration** | Node · Express · Slack API | Custom slash commands and webhooks returning command-aware responses |
 | **Mobile commerce app** | Flutter · Firebase | Cross-platform store built test-first, with extensive unit coverage |
@@ -93,11 +92,11 @@ Client and team work that doesn't live in a public repo:
 
 ## ⚙️ How I Work
 
-- **Scoped changes** — I fix the thing I was asked to fix. Drive-by refactors get their own commit, or their own PR.
-- **Constraints are part of the spec** — a PHP 7.1 target or a CentOS 7 box isn't a problem to route around, it's the shape of the solution.
-- **One design system per project** — color, spacing, and type tokens defined once and reused, so the fifth screen looks like the first.
-- **API-first and testable** — conventional commits, feature-based structure, TypeScript strict mode. Boring on purpose.
-- **Code review as a habit** — I review, I get reviewed, and I mentor. Shared standards beat individual heroics.
+- **Scoped changes.** I fix the thing I was asked to fix. Drive-by refactors get their own commit, or their own PR.
+- **Constraints are part of the spec.** A legacy runtime or a locked-down server isn't a problem to route around. It's the shape of the solution.
+- **One design system per project.** Color, spacing, and type tokens defined once and reused, so the fifth screen looks like the first.
+- **API-first and testable.** Conventional commits, feature-based structure, TypeScript strict mode. Boring on purpose.
+- **Code review as a habit.** I review, I get reviewed, and I mentor. Shared standards beat individual heroics.
 
 ---
 
@@ -120,8 +119,6 @@ Client and team work that doesn't live in a public repo:
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 **Backend**
 
@@ -171,11 +168,11 @@ Client and team work that doesn't live in a public repo:
 
 ## 📬 Let's Work Together
 
-Available for **freelance and contract work** — new builds, or joining an existing codebase. Happy to talk scope and timelines before any commitment.
+Available for **freelance and contract work**, whether that's a new build or joining an existing codebase. Happy to talk scope and timelines before any commitment.
 
 <p>
   <a href="mailto:shayan3742@gmail.com"><img src="https://img.shields.io/badge/shayan3742@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://linkedin.com/in/shayan-shuaib-211474216"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
-<sub>Fastest way to reach me is email — I usually reply within a day.</sub>
+<sub>Email is the fastest way to reach me. I usually reply within a day.</sub>
